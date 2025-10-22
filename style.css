@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #ffe6f0 0%, #e6f7ff 100%);
+  font-family: "Comic Sans MS", "Hiragino Maru Gothic ProN", sans-serif;
+}
+
+canvas {
+  background: #fffafc;
+  border: 4px solid #ffb3d9;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 182, 193, 0.5);
+  cursor: pointer;
+}
